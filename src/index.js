@@ -8,8 +8,6 @@ import api from './api';
 import config from './config.json';
 import routesBreweryDb from './config.json';
 
-require('dotenv').config();
-
 let app = express();
 app.server = http.createServer(app);
 

@@ -17,3 +17,7 @@ This repository contains the code for a proxy server to access the brewerydb.com
 
     /api/beer/iT9pf4
     /api/beers?q=iT9pf4,Omi2cO
+
+## Production 
+
+https://quiet-inlet-67115.herokuapp.com/api/search/all?q=coors
