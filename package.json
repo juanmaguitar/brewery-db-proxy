@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon -w src --exec 'babel-node src --presets es2015,stage-0'",
     "build": "babel src -s -D -d dist --presets es2015,stage-0",
-    "start": "node dist",
+    "start": "./node_modules/.bin/babel-node dist",
     "prestart": "npm run -s build",
     "test": "eslint src"
   },
@@ -31,6 +31,7 @@
   "author": "Jason Miller <jason@developit.ca>",
   "license": "MIT",
   "dependencies": {
+    "babel": "^6.5.2",
     "body-parser": "^1.13.3",
     "brewerydb-node": "0.0.1",
     "compression": "^1.5.2",
