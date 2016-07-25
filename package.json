@@ -40,6 +40,7 @@
     "brewerydb-node": "0.0.1",
     "compression": "^1.5.2",
     "cors": "^2.7.1",
+    "dotenv": "^2.0.0",
     "express": "^4.13.3",
     "resource-router-middleware": "^0.5.1"
   },
