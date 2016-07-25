@@ -7,7 +7,6 @@ export default ({ config, db }) => {
 	let api = Router();
 	let brewdb = new BreweryDb('3ffc0422d9dfcadf2369b0a3a0ec7946');
 
-	console.log("sssss");
 	// mount the facets resource
 	api.use('/facets', facets({ config, db }));
 

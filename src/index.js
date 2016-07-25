@@ -19,8 +19,6 @@ app.use(bodyParser.json({
 	limit : config.bodyLimit
 }));
 
-console.log ("index.js...");
-
 // connect to db
 initializeDb( db => {
 
@@ -30,7 +28,6 @@ initializeDb( db => {
 	// api router
 	app.use('/api', api({ config, db }));
 
-	console.log ("to isten...");
 	app.server.listen(process.env.PORT || config.port);
 
 	console.log(`Started on port ${app.server.address().port}`);
