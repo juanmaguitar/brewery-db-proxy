@@ -26,3 +26,14 @@ This repository contains the code for a proxy server to access the brewerydb.com
 
     https://quiet-inlet-67115.herokuapp.com/api/beer/iT9pf4
     https://quiet-inlet-67115.herokuapp.com/api/beers?q=iT9pf4,Omi2cO
+
+## Installation
+
+To run local server...
+
+    PORT=8080 BREWERYDB_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX npm run dev
+
+To run remotely (in heroku) the proper BREWERYDB_API_KEY should be set before deploying...
+
+    heroku config:set BREWERYDB_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
