@@ -5,6 +5,22 @@ BreweryDb Express Proxy w/  ES2015
 
 This repository contains the code for a proxy server to access the brewerydb.com API
 
+## Heroku Installation
+
+- Install the [Heroku Toolbelt](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
+- Log at heroku:
+
+```bash
+    $ heroku login
+    Enter your Heroku credentials.
+    Email: juanma.garrido@gmail.com
+    Password (typing will be hidden): 
+    Logged in as juanma.garrido@gmail.com
+```
+
+
+git remote add heroku https://git.heroku.com/quiet-inlet-67115.git
+
 ## Routes Examples
 
 ### Search
